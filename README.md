@@ -213,7 +213,7 @@ Ao abrir o app novamente:
 ```
 financas-app/
 │
-├── front-end (Expo)
+├── financas-app-frontend (Expo)
 │
 └── financas-app-backend/
     └── API Node.js
@@ -302,7 +302,7 @@ http://localhost:3333
 Entre na pasta do aplicativo:
 
 ```bash
-cd financas-app
+cd financas-app-frontend
 ```
 
 Instale as dependências:
@@ -321,7 +321,7 @@ yarn
 
 ## Configuração da API
 
-No arquivo responsável pelo Axios, ajuste a URL conforme o ambiente utilizado.
+No arquivo responsável pelo Axios (financas-app-frontend/src/services/api.js), ajuste a URL conforme o ambiente utilizado.
 
 Exemplo:
 
